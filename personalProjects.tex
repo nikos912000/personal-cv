@@ -1,0 +1,46 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Personal Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Summarizing Software API Usage Examples using
+Clustering Techniques} % Organization
+	{}
+	{}
+    {Mar. 2016 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Designed and developed \textit{CLAMS (Clustering for API Mining of Snippets)}, an approach for mining API snippets.}
+		\item {The basic idea is to cluster a large set of usage examples based on what API methods they call, generate summarised versions for the top snippets of each cluster using a simple summarisation algorithm, and then select the most representative snippet from each cluster, using a tree edit distance metric on the ASTs.}
+		\item {This results in a set of high quality API usage examples in the form of concise and readable snippets, thus enabling and supporting source code reuse even in cases of libraries with sparse or minimal documentation.}
+		\item {Method is entirely data-driven, requiring only syntactic information from the program, and so is programming-language agnostic.}
+		\item {This project contains work from the MSc thesis submitted while being a postgraduate student at University of Edinburgh.}
+      \end{cvitems}
+    }
+    
+  \cventry
+    {Mantissa: A Recommendation System for Test-Driven Code Reuse} % Organization
+	{}
+	{}
+    {Jan. 2013 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Designed and developed \textit{Mantissa}, an RSSE (Recommendation System in Software Engineering) that allows searching for software components in growing repositories.} 
+        \item {Mantissa extracts the query from the source code of the developer, employs CSEs such as GitHub to search for available source code, and ranks the retrieved results using the Vector Space Model (VSM).}
+        \item {Various techniques from the area of Information Retrieval (IR) are employed in order to best rank the results.}
+		\item {Additional source code transformations are performed so that each result can be ready-to-use by the developer.}
+		\item {Each result is presented along with relevance scoring and useful information indicating its original source code, its control flow, as well as any external dependencies.}
+		\item {This project contains work from the MEng thesis submitted while being an undergraduate student at Aristotle University of Thessaloniki.}
+		\item {The system is available at \url{http://mantissa.ee.auth.gr}}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+\end{cventries}
